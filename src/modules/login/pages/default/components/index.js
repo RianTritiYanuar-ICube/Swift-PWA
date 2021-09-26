@@ -94,7 +94,12 @@ const Login = (props) => {
                 />
             )}
             <div className={classNames('row between-sm between-md between-lg', styles.desktopContainer)}>
-                <div className="col-sm-12 col-md-12 col-lg-12 hidden-mobile">
+                <div className="col-sm-6 col-md-6 col-lg-6 hidden-mobile">
+                    <Typography type="bold" variant="h1" className={styles.title}>
+                        {t('login:customerLogin')}
+                    </Typography>
+                </div>
+                <div className="col-sm-5 col-md-5 col-lg-5 hidden-mobile">
                     <Typography type="bold" variant="h1" className={styles.title}>
                         {t('login:customerLogin')}
                     </Typography>
@@ -247,11 +252,6 @@ const Login = (props) => {
                 </div>
                 <div className="col-xs-12 col-sm-5 col-md-5 col-lg-5 hidden-mobile">
                     <div className="row">
-                        <div className="col-sm-12 col-md-12 col-lg-12 hidden-mobile">
-                            <Typography type="bold" variant="h1" className={styles.title}>
-                                {t('login:customerLogin')}
-                            </Typography>
-                        </div>
                         <div className="col-sm-12">
                             <div className={styles.headerSpan}>
                                 <Typography className="clear-margin-padding" variant="span" letter="uppercase">
