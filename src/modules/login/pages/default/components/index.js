@@ -101,7 +101,7 @@ const Login = (props) => {
                 </div>
                 <div className="col-sm-5 col-md-5 col-lg-5 hidden-mobile">
                     <Typography type="bold" variant="h1" className={styles.title}>
-                        {t('login:customerLogin')}
+                        {t('login:customerRegister')}
                     </Typography>
                 </div>
                 <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
