@@ -15,7 +15,7 @@ const Content = () => {
             <div className="row">
                 {dummyData.map((data, key) => (
                     <div key={key} className={classNames(styles.newCard, 'col-xs-6 col-md-3')}>
-                        <h5>{`Data ke-${data}`}</h5>
+                        <h5>{`Popular ${data}`}</h5>
                     </div>
                 ))}
             </div>

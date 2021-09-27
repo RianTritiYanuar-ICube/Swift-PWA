@@ -8,6 +8,7 @@
     "failed": "Login failed",
     "registerTitle" : "Register",
     "customerLogin": "Customer login",
+    "customerRegister": "Customer register",
     "registerCustomer": "Registered customer",
     "newCustomer": "New customer",
     "loginInformation": "If you have an account, sign in with your email address or phone number.",
